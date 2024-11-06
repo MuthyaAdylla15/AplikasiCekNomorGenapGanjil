@@ -174,6 +174,7 @@ public class CekNomorGenapGanjil extends javax.swing.JFrame {
     private void btnHapusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHapusActionPerformed
         txtInput.setText("");      
         lblHasil.setText("");
+        txtInput.requestFocus();
     }//GEN-LAST:event_btnHapusActionPerformed
 
     private void btnCekActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCekActionPerformed
